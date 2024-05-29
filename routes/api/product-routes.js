@@ -3,6 +3,7 @@ const sequelize = require('../../config/connection');
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
+// TODO: FINISHED !
 
 // get all products
 router.get('/', async (req, res) => {

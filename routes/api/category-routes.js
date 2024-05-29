@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
+// TODO: GET route (x2), POST route, PUT route, DELETE route
 
 router.get('/', (req, res) => {
   // find all categories

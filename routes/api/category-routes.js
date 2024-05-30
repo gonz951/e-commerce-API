@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
+// TODO: FINISHED & TESTED !
 
 router.get('/', async (req, res) => {
   // find all categories
@@ -51,7 +52,7 @@ router.put('/:id', async (req, res) => {
       }
     });
 
-    if (!categoryData) {
+    if (!categoryData[0]) {
       res.status(200).json({ message: 'No category found with this id.' });
       return;
     }

@@ -8,7 +8,7 @@ This project was mostly done for the purpose of learning how to use models and r
 
 ## Installation
 
-Due to the local nature of this project, an instructional video will be provided:
+Due to the local nature of this project, an instructional video will be provided: https://drive.google.com/file/d/1tvpJGCRvnXZmeuytO2DmXr3DP6YQ-8xy/view
 
 ## License
 
